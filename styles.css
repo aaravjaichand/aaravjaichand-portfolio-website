@@ -90,6 +90,58 @@ body {
     line-height: 1.7;
 }
 
+.experience-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.experience-wrapper .card {
+    margin-bottom: 0;
+}
+
+.experience-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+.experience-logo {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.experience-info {
+    flex: 1;
+}
+
+.experience-info .card-title {
+    margin-bottom: 4px;
+}
+
+.experience-info .card-subtitle {
+    margin-bottom: 0;
+}
+
+.inline-link {
+    color: #ffffff;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.inline-link:hover {
+    color: #808080;
+}
+
 .card-link {
     display: inline-block;
     margin-top: 16px;
